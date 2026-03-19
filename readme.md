@@ -4,10 +4,14 @@ A closed-loop control system that balances a metal ball at the center of a X/Y a
 
 ---
 ## Demo
-<div align="center">
-    <video src="resource/demo1.mp4" width="130" height="300" controls></video>
-    <video src="resource/demo2.mp4" width="130" height="300" controls></video>
-</div>
+<p align="center">
+  <a href="./resource/demo1.mp4">
+    <img src="./resource/demo1_thumbnail.png" width="180" alt="Demo 1 video" />
+  </a>
+  <a href="./resource/demo2.mp4">
+    <img src="./resource/demo2_thumbnail.png" width="180" alt="Demo 2 video" />
+  </a>
+</p>
 
 
 ## Table of Contents
