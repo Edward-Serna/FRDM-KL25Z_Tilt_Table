@@ -3,6 +3,12 @@
 A closed-loop control system that balances a metal ball at the center of a X/Y axis tilt table using a resistive touch panel for position sensing and two servo motors for actuation. Built on the **FRDM-KL25Z** (NXP Kinetis KL25Z) development board.
 
 ---
+## Demo
+<div align="center">
+    <video src="resource/demo1.mp4" width="130" height="300" controls></video>
+    <video src="resource/demo2.mp4" width="130" height="300" controls></video>
+</div>
+
 
 ## Table of Contents
 
