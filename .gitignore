@@ -1,0 +1,7 @@
+Debug/frdmkl25z_driver_examples_adc16_interrupt.map
+Debug/frdmkl25z_driver_examples_adc16_interrupt_Debug.ld
+Debug/frdmkl25z_driver_examples_adc16_interrupt_Debug_library.ld
+Debug/frdmkl25z_driver_examples_adc16_interrupt_Debug_memory.ld
+Debug/
+.vscode/
+.settings/
