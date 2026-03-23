@@ -2,17 +2,10 @@
 
 A closed-loop control system that balances a metal ball at the center of a X/Y axis tilt table using a resistive touch panel for position sensing and two servo motors for actuation. Built on the **FRDM-KL25Z** (NXP Kinetis KL25Z) development board.
 
----
 ## Demo
-<p align="center">
-  <a href="./resource/demo1.mp4">
-    <img src="./resource/demo1_thumbnail.png" width="180" alt="Demo 1 video" />
-  </a>
-  <a href="./resource/demo2.mp4">
-    <img src="./resource/demo2_thumbnail.png" width="180" alt="Demo 2 video" />
-  </a>
-</p>
-
+<div align="center">
+<img src="resource/Tilt_Table_Calibration_demo.gif" height="250">
+</div>
 
 ## Table of Contents
 
@@ -181,7 +174,11 @@ Open a terminal with these settings to observe live position data:
 
 ### Touch Panel Calibration
 
-Raw ADC values from the touch panel must be mapped to physical coordinates before being fed to the PID. Calibration data is in `resource/Tilt_Table_Calibration.xlsx`. Update the correction functions in `adc16_interrupt.c` with your table's specific min/max ADC readings for each axis.
+Raw ADC values from the touch panel must be mapped to physical coordinates before being fed to the PID. Calibration data is in `resource/Tilt_Table_Calibration.xlsx`. Using the TiltTable.m we can add our .xlsx row 22 data. Update the correction functions in `adc16_interrupt.c` with your table's specific min/max ADC readings for each axis.
+<div align="center" >
+<img src="resource/Tilt_Table_Calibration_Mat.png" height="250">
+<img src="resource/Matlab_Output.png" height="250">
+</div>
 
 ### PID Gains
 
